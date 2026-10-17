@@ -1,0 +1,11 @@
+# Build output
+build/
+tools/mdinstall
+
+# The iOS 9.3 SDK (Apple's files) - fetched by scripts/fetch-sdk.sh
+vendor/
+
+# Provisioning profiles contain your device UDIDs, team ID and certificate
+*.mobileprovision
+
+.DS_Store
